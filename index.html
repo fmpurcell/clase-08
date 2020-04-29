@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Covid-19 por comuna de Santiago</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html" selected>Contagios por comuna</option>
+            <option value="page.html">Página interior</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">Numero de contagios por comuna en Santiago</a></h1>
+            <h3>Las autoridades han informado que una de las comunas que presenta mayor cantidad de contagios es Las Condes,con 181 casos hasta la fecha, seguido de Providencia con 82 contagiados.</h3>
+            <h5>Francisca Purcell</h5>
+            <hr>
+        </header>
+        <section>
+            <p>La cuarentena y el distanciamiento social son una de las tantas medidas que ha tomado el gobierno de Chile para enfrentar de mejor manera la pandemia. Pero también sucede que la irresponsabilidad de algunos contagiados, hace que la recomendación sea inútil sin medidas más agresivas.</p>
+            <blockquote cite="https://ciperchile.cl/2020/03/25/ciudad-y-covid-19-desigualdad-socio-espacial-y-vulnerabilidad/">
+                <p>" El Covid-19 arraza con todos, no distingue raza, lugar ni riquezas."</p>
+                <footer><a href="https://ciperchile.cl/2020/03/25/ciudad-y-covid-19-desigualdad-socio-espacial-y-vulnerabilidad/">CIPER</a></footer>
+            </blockquote>
+            <p>A pesar de algunos irresponsables, Chile ha sido uno de los países que mejor ha logrado enfrentar la pandemia.</p>
+            <h2>¿Cómo saber la situación de mi país?</h2>
+            <p>Los siguientes números son los que más definen la situación:</p>
+            <!--ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ul -->
+            <ul>
+                <li>Casos nuevos:464</li>
+                <li>Casos totales:11.296</li>
+                <li>Fallecidos:160</li>
+            </ul>
+            <p>Asi luce el Covid-19 bajo el microscopio.</p>
+            <figure>
+                <img src="https://clustersalud.americaeconomia.com/sites/clustersalud.americaeconomia.com/files/styles/slider/public/coronavirus.png?itok=kfPL2hVM" alt="Mapa de santiago con contagios">
+                <figcaption>Descriptor de la imagen que está arriba.</figcaption>
+            </figure>
+            <p>Luego de saber esta información, te invito a que te quedes en casa y sigas las medidas de precaución para evitar contagiarte a ti y a tus cercanos . <strong>Para más información <a href="page.html">visita la página interior</a></strong>.</p>
+        </section>
+        <footer>
+            <hr>
+            <p>Francisca Purcell &copy; 2020 <span class="derecha">Séptima clase, enfocada en <abbr title="HyperText Markup Language">html</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
