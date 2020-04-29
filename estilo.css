@@ -34,12 +34,12 @@ h1 {
 
 h1 a {
     text-decoration: none;
-    color: #b71c1c;
+    color: #0C3651;
 }
 
 h1 a:hover {
     text-decoration: none;
-    color: #c62828;
+    color: #0C3651;
 }
 
 h2 {
@@ -243,13 +243,13 @@ table tfoot, figure figcaption {
 }
 
 table tfoot a, figure figcaption a {
-    color: #999;
+    color: #0C3651;
     font-weight: 400;
     text-decoration: none;
 }
 
 table tfoot a:hover, figure figcaption a:hover {
-    color: #888;
+    color: #0C3651;
     text-decoration: underline;
 }
 
