@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(180deg, rgba(220, 220, 220, 0.3) 100px, rgba(220, 220, 220, 0.6) 200px, rgba(220, 220, 220, 0.9) 300px), url('https://s1.eestatic.com/2020/03/05/como/Coronavirus-Enfermedades_infecciosas-Infecciones-Como_hacer_472464572_147429913_1024x576.jpg');
+    background: linear-gradient(180deg, rgba(12, 54, 81, 0.3) 100px, rgba(220, 220, 220, 0.6) 200px, rgba(220, 220, 220, 0.9) 300px), url('https://s1.eestatic.com/2020/03/05/como/Coronavirus-Enfermedades_infecciosas-Infecciones-Como_hacer_472464572_147429913_1024x576.jpg');
     background-size: 100% auto;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
