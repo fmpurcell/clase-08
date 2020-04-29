@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(180deg, rgba(12, 54, 81, 0.3) 100px, rgba(122, 197, 226, 0.6) 200px, rgba(220, 220, 220, 0.9) 300px), url('https://s1.eestatic.com/2020/03/05/como/Coronavirus-Enfermedades_infecciosas-Infecciones-Como_hacer_472464572_147429913_1024x576.jpg');
+    background: linear-gradient(180deg, rgba(230, 237, 245, 0.5) 100px, rgba(230, 237, 245, 0.75) 200px, rgba(230, 237, 245, 1) 300px), url('https://s1.eestatic.com/2020/03/05/como/Coronavirus-Enfermedades_infecciosas-Infecciones-Como_hacer_472464572_147429913_1024x576.jpg');
     background-size: 100% auto;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
@@ -30,16 +30,17 @@ h1 {
     font-family: Georgia, serif;
     font-weight: bold;
     font-size: 2.75rem;
+    text-shadow: 0 0 3px rgba(120,144,156,0.5);    
 }
 
 h1 a {
     text-decoration: none;
-    color: #7AC5E2;
+    color: #fff;
 }
 
 h1 a:hover {
     text-decoration: none;
-    color: #7AC5E2;
+    color: #fff;
 }
 
 h2 {
